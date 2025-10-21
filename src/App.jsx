@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import * as bootstrap from 'bootstrap'
-import { Tooltip, Toast, Popover } from 'bootstrap';
+import Heading from "./componen/heading"
+import Profile from "./componen/profile"
 
 
 function App() {
@@ -11,10 +9,25 @@ function App() {
 
   return (
     <>
-       <div class="container py-4 px-3 mx-auto">
-          <h1>Hello, Bootstrap and Vite!</h1>
-          <button class="btn btn-primary">Primary button</button>
-        </div>
+      <div className="container-fluid">
+        <Heading/>
+        <Profile/>
+        <section>
+          <div className="project my-3">
+            <div className="row text-center m-4">
+              <div className="col">
+                <div className="project-header">Proyek Yang Pernah Saya Buat</div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <div className="project-name">Waroeng Miehot  | Aplikasi Point Of Sales Berbasis Web</div>
+                <div className="project-description">Aplikasi POS berbasis web yang memudahkan kasir dalam melakukan transaksi dan memantau penjualan harian. Dirancang untuk membantu pemilik usaha mengakses laporan penjualan secara real-time dan efisien.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </>
   )
 }
