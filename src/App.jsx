@@ -19,6 +19,7 @@ function App() {
         <Sklills/>
         <Contact/>
         
+      
       </div>
     </>
   )

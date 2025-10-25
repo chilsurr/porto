@@ -105,6 +105,7 @@ spline-viewer {
 }
 
 .skill-card{
+  transform-style: preserve-3d;
   background-color: #181818;
   height: 320px;
   width: 280px;
@@ -112,11 +113,13 @@ spline-viewer {
 }
 
 .skill-img{
+  transform: translate3d(0, 0, 100px) ;
   width: 200px;
   height: 200px;
 }
 
 .skill-name{
+  /* transform: translate3d(0, 0, 100px) ; */
   font-size: 25px;
 }
 
@@ -142,4 +145,8 @@ spline-viewer {
   color: #ddd;
   width: 135px;
   height: 40px;
+}
+
+.spline-contact{
+  height: 350px;
 }
