@@ -21,15 +21,18 @@ spline-viewer {
   font-weight: 800;
 }
 
-.profile-btn{
+.profile-btn:hover{
   background-color: #6f0f3e;
+  box-shadow: 0 0 0px rgba(111, 15, 62, 0.8);
+  /* background-color: #9B3064; */
   border-radius: 10px;
   color: #ddd;
   width: 135px;
   height: 40px;
 }
-.profile-btn:hover{
-  background-color: #9B3064;
+.profile-btn{
+  box-shadow: 0 0 15px rgba(111, 15, 62, 0.8);
+  border: 2px solid #6f0f3e;
   border-radius: 10px;
   color: #ddd;
   width: 135px;
@@ -67,8 +70,76 @@ spline-viewer {
   height: 25px;
 }
 
-.project-header{
+.project-tittle{
   font-size: 35px;
   font-weight: bold;
 }
 
+.project-header{
+  border-radius: 5px 5px 0 0;
+  background-color: #6f0f3e;
+}
+
+.project-name{
+  font-size: 30px;
+}
+
+.project-description{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.project-body{
+  background-color: #181818;
+  border-radius: 0 0 5px 5px;
+}
+
+.skills{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.skills-tittle{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.skill-card{
+  background-color: #181818;
+  height: 320px;
+  width: 280px;
+  border-radius: 5px;
+}
+
+.skill-img{
+  width: 200px;
+  height: 200px;
+}
+
+.skill-name{
+  font-size: 25px;
+}
+
+.contact-tittle{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.btn-contact{
+  /* border: 2px solid #aa1e62; */
+  box-shadow: 0 0 15px rgba(111, 15, 62, 0.8);
+  background-color: #9B3064;
+  border-radius: 10px;
+  color: #ddd;
+  width: 135px;
+  height: 40px;
+}
+.btn-contact:hover{
+  box-shadow: 0 0 0px rgba(111, 15, 62, 0.8);
+  background-color: #6f0f3e;
+  border-radius: 10px;
+  color: #ddd;
+  width: 135px;
+  height: 40px;
+}
