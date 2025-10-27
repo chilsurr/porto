@@ -21,8 +21,8 @@ function Sklills() {
   }, []);
 
     return(
-        <section>
-          <div className="skills">
+        <section className="pt-5"  id="skills">
+          <div className="skills" >
             <div className="row d-flex justify-content-center">
                 <div className="col-10">
                     <div className="row text-center m-4">

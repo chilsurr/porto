@@ -1,7 +1,7 @@
 function Project() {
     return(
-        <section>
-          <div className="project my-5">
+        <section className="pt-5" id="project">
+          <div className="project" >
             <div className="row d-flex justify-content-center">
                 <div className="col-10">
                     <div className="row text-center m-4">

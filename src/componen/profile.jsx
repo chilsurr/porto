@@ -1,8 +1,8 @@
 function Profile () {
     return(
         <>
-            <section>
-                <div className="profile">
+            <section className="pt-5"  id="profile">
+                <div className="profile" >
                     <div className="row d-flex justify-content-center">
                         <div className="col-10">
                             <div className="row">
