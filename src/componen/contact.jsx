@@ -3,12 +3,12 @@ function Contact() {
         <section className="pt-5 pb-5"  id="contact">
           <div className="contact" >
             <div className="row d-flex justify-content-center">
-                <div className="col-10">
+                <div className="col--lg10">
                     <div className="row m-4 d-flex  justify-content-center ">
-                        <div className="col-10">
+                        <div className="col-lg-10">
                             <div className="contact-tittle mb-5 text-center">Let's Talk</div>
                             <div className="row">
-                                <div className="col-6 contact-input">
+                                <div className="col-lg-6 contact-input">
                                     <form>
                                         <div className="mb-3">
                                             <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
@@ -27,7 +27,7 @@ function Contact() {
                                         </div>
                                     </form>
                                 </div>
-                                <div className="col-6 ">     
+                                <div className="col-lg-6 ">     
                                     <div className="spline-contact overflow-hidden">
                                         <spline-viewer className="splane-contact" url="https://prod.spline.design/kr0reVSm6gWu2yPx/scene.splinecode"></spline-viewer>
                                     </div>                      

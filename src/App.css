@@ -73,7 +73,7 @@ spline-viewer {
   font-weight: bold;
 }
 
-.profile-sosmed button{
+.profile-sosmed a{
   padding: 0;
   width: 35px;
   height: 35px;
@@ -82,6 +82,7 @@ spline-viewer {
   margin-top: 10px;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
   background-color: #fff;
 }
 
@@ -216,3 +217,105 @@ footer{
 .my-text-color{
   color: #bbb;
 }
+
+
+
+/* phone */
+@media (max-width: 768px) { 
+  .spline-heading{
+    display: none;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  /* profile */
+  .profile-content{
+    display: block;
+  }
+
+  .profile-img{
+    width: 250px;
+    margin-bottom: 15px;
+  }
+
+  .profile-name{
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .profile-sosmed img{
+    width: 25px;
+    height: 25px;
+  }
+  .profile-sosmed a{
+    width: 30px;
+    height: 30px;
+  }
+
+  .profile-descriptions{
+    font-size: 16px;
+  }
+
+  /* project */
+  .project-tittle{
+    font-size: 28px;
+  }
+
+  .project-header{
+    padding: 10px 30px;
+  }
+  .project-name{
+    font-size: 20px;
+    /* width: 400px; */
+  }
+
+  .project-body img{
+    width: 480px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .project-description{
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  /* skills */
+  .skills-tittle{
+    font-size: 28px;
+  }
+  .skill-card{
+    transform-style: preserve-3d;
+    height: 220px;
+    width: 180px;
+  }
+
+  .skill-img{
+    transform: translate3d(0, 0, 60px) ;
+    width: 130px;
+    height: 130px;
+  }
+
+  .skill-name{
+    font-size: 18px;
+  }
+
+  .spline-contact{
+    margin-top: 15px;
+    /* width: 430px; */
+  }
+
+  footer{
+    background-color: #000000;
+    height: 150px;
+  }
+
+  .skills{
+  /* margin-top: 150px; */
+  margin-bottom: 0px;
+}
+
+ }

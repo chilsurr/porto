@@ -14,23 +14,23 @@ function App() {
     <>
       <div className="container-fluid">
         <section>
-          <nav class="navbar fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="#">
+          <nav className="navbar fixed-top">
+            <div className="container">
+              <a className="navbar-brand" href="#">
                 <img className='nav-profile' src="src/assets/man.png" alt="Bootstrap"/>
               </a>
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#project">Proyek</a>
+              <ul className="nav justify-content-center">
+                <li className="nav-item">
+                  <a className="nav-link active" href="#project">Proyek</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#skills">Skills</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#profile">About</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#profile">About</a>
                 </li>
               </ul>
             </div>
@@ -43,10 +43,10 @@ function App() {
         <Contact/>
         <section>
           <div className="row d-flex justify-content-center">
-            <div className="col-10">
-              <footer className='d-flex justify-content-between'>
+            <div className="col-lg-10">
+              <footer className='d-lg-flex justify-content-between'>
                 <div className='d-flex justify-content-center align-items-center my-text-color'>Terms & Conditions</div>
-                <div className='footer-sosmed d-flex align-items-center'>
+                <div className='footer-sosmed my-sm-3 d-flex justify-content-sm-center align-items-center'>
                   <a href=''>
                       <img src="src/assets/instagram.png" alt="" />
                   </a>
