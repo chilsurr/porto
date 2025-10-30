@@ -7,7 +7,7 @@ function Profile () {
                         <div className="col-10">
                             <div className="row profile-content">
                                 <div className="col-lg-6 text-center mt-4">
-                                    <img className="profile-img" src="src/assets/Group 1.png" alt="gada pak"/>
+                                    <img className="profile-img" src="assets/Group 1.png" alt="gada pak"/>
                                 </div>
                                 <div className="col-lg-6 d-flex align-items-center">
                                     <div className='me-lg-5'>
@@ -19,13 +19,13 @@ function Profile () {
                                         </div>
                                         <div className="profile-sosmed d-flex">
                                             <a href="">
-                                                <img src="src/assets/instagram.png" alt="" />
+                                                <img src="assets/instagram.png" alt="" />
                                             </a>
                                             <a href="">
-                                                <img src="src/assets/linkedin.png" alt="" />
+                                                <img src="assets/linkedin.png" alt="" />
                                             </a>
                                             <a href="">
-                                                <img src="src/assets/github.png" alt="" />
+                                                <img src="assets/github.png" alt="" />
                                             </a>
                                         </div>
                                     </div>

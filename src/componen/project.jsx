@@ -19,7 +19,7 @@ function Project() {
                             </div>
                         </div>
                         <div className="project-body col-lg-10 text-center p-lg-2">
-                            <img src="src/assets/image 1.png" alt="" />
+                            <img src="assets/image 1.png" alt="" />
                         </div>
                     </div>
                 </div>

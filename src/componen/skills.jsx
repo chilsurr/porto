@@ -32,20 +32,20 @@ function Sklills() {
                     </div>
                     <div className="row d-flex justify-content-lg-evenly">
                       <div className="col-lg-3 col-sm-6 mb-4 ">
-                          <div className="skill-card text-center p-3" data-tilt>
-                              <img className="skill-img mt-3" src="src/assets/python.png" alt="" />
+                          <div className="skill-card text-center p-lg-3" data-tilt>
+                              <img className="skill-img mt-3" src="assets/python.png" alt="" />
                               <div className="skill-name my-3 fw-semibold">Python</div>
                           </div>
                       </div>
                       <div className="col-lg-3 col-sm-6 mb-4">
-                          <div className="skill-card text-center p-3" data-tilt>
-                              <img className="skill-img mt-3" src="src/assets/atom.png" alt="" />
+                          <div className="skill-card text-center p-lg-3" data-tilt>
+                              <img className="skill-img mt-3" src="assets/atom.png" alt="" />
                               <div className="skill-name my-3 fw-semibold">React</div>
                           </div>
                       </div>
                       <div className="col-lg-3 col-sm-6 mb-4">
-                          <div className="skill-card text-center p-3" data-tilt>
-                              <img className="skill-img mt-3" src="src/assets/js.png" alt="" />
+                          <div className="skill-card text-center p-lg-3" data-tilt>
+                              <img className="skill-img mt-3" src="assets/js.png" alt="" />
                               <div className="skill-name my-3 fw-semibold">Javascript</div>
                           </div>
                       </div>
