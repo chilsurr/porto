@@ -6,6 +6,11 @@ import Project from "./componen/project"
 import Sklills from './componen/skills'
 import Contact from './componen/contact'
 
+import imgNav from "../assets/man.png"
+import imgIntagram from "../assets/instagram.png"
+import imgLinkedin from "../assets/linkedin.png"
+import imgGithub from "../assets/github.png"
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +22,7 @@ function App() {
           <nav className="navbar fixed-top">
             <div className="container">
               <a className="navbar-brand" href="#">
-                <img className='nav-profile' src="src/assets/man.png" alt="Bootstrap"/>
+                <img className='nav-profile' src={imgNav} alt="Bootstrap"/>
               </a>
               <ul className="nav justify-content-center">
                 <li className="nav-item">
@@ -46,15 +51,15 @@ function App() {
             <div className="col-lg-10">
               <footer className='d-lg-flex justify-content-between'>
                 <div className='d-flex justify-content-center align-items-center my-text-color'>Terms & Conditions</div>
-                <div className='footer-sosmed my-sm-3 d-flex justify-content-sm-center align-items-center'>
+                <div className='footer-sosmed d-flex align-items-center'>
                   <a href=''>
-                      <img src="src/assets/instagram.png" alt="" />
+                      <img src={imgIntagram} alt="" />
                   </a>
                   <a href=''>
-                      <img src="src/assets/linkedin.png" alt="" />
+                      <img src={imgLinkedin} alt="" />
                   </a>
                   <a href=''>
-                      <img src="src/assets/github.png" alt="" />
+                      <img src={imgGithub} alt="" />
                   </a>
                 </div>
                 <div className='d-flex justify-content-center align-items-center my-text-color'>© 2025 Suryaa. All rights reserved.</div>

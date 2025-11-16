@@ -1,3 +1,5 @@
+import imgProject from "../../assets/image 1.png"
+
 function Project() {
     return(
         <section className="pt-5" id="project">
@@ -19,7 +21,7 @@ function Project() {
                             </div>
                         </div>
                         <div className="project-body col-lg-10 text-center p-lg-2">
-                            <img src="assets/image 1.png" alt="" />
+                            <img src={imgProject} alt="" />
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ function Contact() {
         <section className="pt-5 pb-5"  id="contact">
           <div className="contact" >
             <div className="row d-flex justify-content-center">
-                <div className="col--lg10">
+                <div className="col-lg-10">
                     <div className="row m-4 d-flex  justify-content-center ">
                         <div className="col-lg-10">
                             <div className="contact-tittle mb-5 text-center">Let's Talk</div>

@@ -221,13 +221,17 @@ footer{
 
 
 /* phone */
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
   .spline-heading{
     display: none;
   }
 
   .nav{
     display: none;
+  }
+
+  .tagline{
+    font-size: 36px;
   }
 
   /* profile */
@@ -242,7 +246,7 @@ footer{
 
   .profile-name{
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .profile-sosmed img{
@@ -255,42 +259,52 @@ footer{
   }
 
   .profile-descriptions{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* project */
   .project-tittle{
-    font-size: 28px;
+    font-size: 26px;
+    margin-bottom: 20px;
   }
 
   .project-header{
     padding: 10px 30px;
   }
   .project-name{
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 35px;
     /* width: 400px; */
   }
 
   .project-body img{
-    width: 480px;
+    width: 385px;
     margin: 0;
     padding: 0;
     border-radius: 0 0 5px 5px;
   }
 
   .project-description{
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 5px;
+    line-height: 22px;
   }
 
   /* skills */
   .skills-tittle{
     font-size: 28px;
+    margin-bottom: 10px;
   }
   .skill-card{
     transform-style: preserve-3d;
     height: 200px;
     width: 160px;
+    margin-bottom: 30px;
+  }
+
+  .cards-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .skill-img{
@@ -303,9 +317,18 @@ footer{
     font-size: 18px;
   }
 
+  .contact-tittle{
+    font-size: 28px;
+  }
+  
   .spline-contact{
     margin-top: 15px;
     /* width: 430px; */
+  }
+
+  .footer-sosmed{
+    justify-content: center;
+    margin: 10px 0px;
   }
 
   footer{
