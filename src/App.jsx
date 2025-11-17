@@ -52,13 +52,13 @@ function App() {
               <footer className='d-lg-flex justify-content-between'>
                 <div className='d-flex justify-content-center align-items-center my-text-color'>Terms & Conditions</div>
                 <div className='footer-sosmed d-flex align-items-center'>
-                  <a href=''>
+                  <a href='https://www.instagram.com/nupkuyy_/'>
                       <img src={imgIntagram} alt="" />
                   </a>
-                  <a href=''>
+                  <a href='https://www.linkedin.com/in/suryadi-sigarantang-35986b227/'>
                       <img src={imgLinkedin} alt="" />
                   </a>
-                  <a href=''>
+                  <a href='https://github.com/chilsurr'>
                       <img src={imgGithub} alt="" />
                   </a>
                 </div>

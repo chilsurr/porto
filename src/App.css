@@ -54,6 +54,7 @@ spline-viewer {
   color: #ddd;
   width: 135px;
   height: 40px;
+  margin-top: 15px;
 }
 .profile-btn a{
   color: #fff;
@@ -156,7 +157,7 @@ spline-viewer {
   color: #bbb;
 }
 
-.btn-contact{
+.btn-contact:hover{
   /* border: 2px solid #aa1e62; */
   box-shadow: 0 0 15px rgba(111, 15, 62, 0.8);
   background-color: #9B3064;
@@ -165,7 +166,7 @@ spline-viewer {
   width: 135px;
   height: 40px;
 }
-.btn-contact:hover{
+.btn-contact{
   box-shadow: 0 0 0px rgba(111, 15, 62, 0.8);
   background-color: #6f0f3e;
   border-radius: 10px;
@@ -231,8 +232,9 @@ footer{
   }
 
   .tagline{
-    font-size: 36px;
+    font-size: 30px;
   }
+
 
   /* profile */
   .profile-content{
@@ -240,13 +242,13 @@ footer{
   }
 
   .profile-img{
-    width: 250px;
+    width: 220px;
     margin-bottom: 15px;
   }
 
   .profile-name{
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .profile-sosmed img{
@@ -259,12 +261,13 @@ footer{
   }
 
   .profile-descriptions{
-    font-size: 14px;
+    font-size: 10px;
+    line-height: 22px;
   }
 
   /* project */
   .project-tittle{
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
 
@@ -272,13 +275,13 @@ footer{
     padding: 10px 30px;
   }
   .project-name{
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
     /* width: 400px; */
   }
 
   .project-body img{
-    width: 385px;
+    width: 19em;
     margin: 0;
     padding: 0;
     border-radius: 0 0 5px 5px;
@@ -292,14 +295,14 @@ footer{
 
   /* skills */
   .skills-tittle{
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .skill-card{
     transform-style: preserve-3d;
     height: 200px;
     width: 160px;
-    margin-bottom: 30px;
+    margin-bottom: 1em;
   }
 
   .cards-wrapper{
@@ -314,11 +317,11 @@ footer{
   }
 
   .skill-name{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .contact-tittle{
-    font-size: 28px;
+    font-size: 20px;
   }
   
   .spline-contact{
